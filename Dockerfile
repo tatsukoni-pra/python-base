@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y \
   pip install --upgrade pip \
   # 導入したいパッケージはここでinstallする
   requests \
-  boto \
+  boto3 \
   python-dotenv && \
   echo `python --version`
 
